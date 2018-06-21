@@ -638,7 +638,6 @@ en:
       view_open_tickets: View open tickets
     account_versions:
       index:
-        description: Every transaction and every penny of income in Peatio are well
         description: Every transaction and every penny of income in BREXCHANGE are well
           documented and exhaustive.
     api_tokens:
