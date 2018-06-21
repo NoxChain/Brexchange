@@ -2,8 +2,8 @@ en:
   js:
     brand: BREXCHANGE
     submit: Submit
-    cancel: Cancel
-    confirm: Confirm
+    cancel: Cancelar
+    confirm: Confirmar
     banks:
       icbc: Industryand Commercial Bank of China
       cbc: Construction Bank of China
@@ -25,20 +25,20 @@ en:
       bos: Bank of Shanghai
     fund_sources:
       manage_bank_account: Bank Account Management
-      manage_bank_account_desc: To facilitate the choice of bank withdrawals address
-      manage_coin_address: Coin Address Management
-      manage_coin_address_desc: To facilitate the choice of coin withdrawals address
+      manage_bank_account_desc: To facilitate the choice of bank withdrawals endereço
+      manage_coin_endereço: Coin endereço Management
+      manage_coin_endereço_desc: To facilitate the choice of coin withdrawals endereço
       bank: Bank
       account: Bank Account
       label: Label
-      address: Address
+      endereço: endereço
       action: Action
       add: Add
       remove: Remove
       default: Default
     funds:
-      deposit: Deposit
-      withdraw: Withdraw
+      deposit: Deposito
+      withdraw: Saque
       currency_name:
         cny: CNY
         btc: BTC
@@ -64,17 +64,17 @@ en:
         remark: 'Referral Code (Transfer identification code)'
 
       deposit_btc:
-        title: BTC Deposit
+        title: BTC Deposito
 
       deposit_coin:
-        address: Address
-        new_address: New Address
-        confirm_gen_new_address: You sure want to generate a new deposit address?
+        endereço: endereço
+        new_endereço: New endereço
+        confirm_gen_new_endereço: You sure want to generate a new deposit endereço?
         open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
-        detail: Please paste the address below in your wallet, and fill in the amount you want to deposit, then confirm and send.
+        detail: Please paste the endereço below in your wallet, and fill in the amount you want to deposit, then confirm and send.
         scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
         after_deposit: Once you complete sending, you can check the status of your new deposit below.
-        generate-new: Generate new address
+        generate-new: Generate new endereço
 
       deposit_history:
         title: Deposit History
@@ -104,7 +104,7 @@ en:
         intro_2: Your bank account and name must be consistent with the real-name authentication name.
         attention: "Working Hours: 9:00 - 18:00"
         account_name: Account Name
-        withdraw_address: Withdraw Address
+        withdraw_endereço: Withdraw endereço
         balance: Balance
         withdraw_amount: Withdraw Amount
         manage_withdraw: Manage Withdraw
@@ -116,11 +116,11 @@ en:
         title: BTC Withdraw
 
       withdraw_coin:
-        intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
+        intro: Please fill in the endereço and amount, then submit the form. It will be confirmed in 10 minutes
         label: Label
         balance: Balance
         amount: Amount
-        manage_withdraw: Manage Address
+        manage_withdraw: Manage endereço
         min: At least
         withdraw_all: Withdraw all
         fee_explain: About Fee
@@ -130,7 +130,7 @@ en:
         number: Number
         withdraw_time: Time
         withdraw_account: Withdraw Account
-        withdraw_address: Address
+        withdraw_endereço: endereço
         withdraw_amount: Amount
         actual_amount: Actual Amount
         fee: Fee
@@ -144,7 +144,7 @@ en:
         rejected: Rejected
         accepted: Accepted
         suspect: Suspect
-        processing: Processing
+        processing: Processando
         coin_ready: Coin Ready
         coin_done: Coin Done
         done: Done
@@ -155,7 +155,7 @@ en:
     auth:
       please_active_two_factor: Please set mobile number or google authenticator first.
       submit: Submit
-      otp_placeholder: 6-digit password
+      otp_placeholder: 6 digitos senha
       google_app: Google Authenticator
       sms: SMS Verification Messages
       send_code: Send Code

@@ -1,11 +1,11 @@
-- id: btccny
+- id: nbriop
   code: 3
-  #name: BTC/CNY      # default name
-  base_unit: btc
-  quote_unit: cny
+  #name: NBR/IOP      # default name
+  base_unit: NBR
+  quote_unit: IOP
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: cny, fixed: 2}
-  ask: {fee: 0, currency: btc, fixed: 4}
+  bid: {fee: 0, currency: iop, fixed: 2}
+  ask: {fee: 0, currency: nbr, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
 - id: ethcny
