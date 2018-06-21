@@ -26,15 +26,10 @@
   min_confirm: 1
   max_confirm: 10
   - id: 701
-  key: iops
+  key: fermat
   currency: iop
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
-  - id: 702
-  key: zcrs
-  currency: zcr
-  sort_order: 1
-  min_confirm: 1
-  max_confirm: 3
+
   

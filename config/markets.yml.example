@@ -8,13 +8,13 @@
   ask: {fee: 0, currency: nbr, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
-- id: ethcny
+- id: iopcny
   code: 4
-  name: ETH/CNY     
-  base_unit: eth
+  name: IOP/CNY     
+  base_unit: iop
   quote_unit: cny
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: cny, fixed: 2}
+  bid: {fee: 0, currency: iop, fixed: 4}
   ask: {fee: 0, currency: eth, fixed: 4}
   sort_order: 1
   #visible: false     # default to true

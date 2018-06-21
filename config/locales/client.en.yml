@@ -42,6 +42,8 @@ en:
       currency_name:
         cny: CNY
         btc: BTC
+        iop: IOP
+        nbr: NBR
       deposit_cny:
         title: Chinese Yuan Deposit
         desc: "To deposit via Bank transfer, please follow these steps:"

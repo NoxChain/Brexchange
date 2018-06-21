@@ -34,4 +34,11 @@
   fixed: 8
   fee: 0.05
   type: WithdrawChannelNiobio
+  - id: 701
+  key: fermat
+  currency: iop
+  fixed: 8
+  fee: 0.00005
+  inuse: true
+  type: WithdrawChannelFermat
   
