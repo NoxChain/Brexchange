@@ -1,7 +1,7 @@
 en:
   js:
     brand: BREXCHANGE
-    submit: Submit
+    submit: Enviar
     cancel: Cancelar
     confirm: Confirmar
     banks:
@@ -28,14 +28,14 @@ en:
       manage_bank_account_desc: To facilitate the choice of bank withdrawals endereço
       manage_coin_endereço: Coin endereço Management
       manage_coin_endereço_desc: To facilitate the choice of coin withdrawals endereço
-      bank: Bank
-      account: Bank Account
+      bank: Banco
+      account: Conta do Banco
       label: Label
       endereço: endereço
-      action: Action
+      action: Ação
       add: Add
-      remove: Remove
-      default: Default
+      remove: Remover
+      default: Padrão
     funds:
       deposit: Deposito
       withdraw: Saque
@@ -43,23 +43,23 @@ en:
         cny: CNY
         btc: BTC
       deposit_cny:
-        title: Chinese Yuan Deposit
-        desc: "To deposit via Bank transfer, please follow these steps:"
+        title: Yuan Chinês Deposito
+        desc: "Para depositar por transferência bâncaria, por favor siga estes passos:"
         desc_item_1: "1. Submit the form to get the identification code."
         desc_item_2: "2. Transfer the money to exchange's bank account. Please make sure your referral code was written on the form you fill in."
         desc_item_3: "3. Your deposit will be confirmed as soon as the money is received."
         attention: "Attention: The name of your bank account must be the same as your account name on our site, otherwise your deposit may fail."
-        from: From
-        to: To
-        deposit_name: Your Name
-        deposit_account: Deposit Account
+        from: De
+        to: Para
+        deposit_name: Seu Nome
+        deposit_account: Conta de Depósito
         add: Add
-        manage: Manage
-        amount: Deposit Amount
+        manage: Gerenciar
+        amount: Quantidade de Deposito
         min_amount: At least 10 yuan
-        to_account: Account
-        to_name: Name
-        to_bank_name: Bank Name
+        to_account: Conta
+        to_name: Nome
+        to_bank_name: Nome do Banco
         opening_bank_name: Account where created
         remark: 'Referral Code (Transfer identification code)'
 
@@ -68,8 +68,8 @@ en:
 
       deposit_coin:
         endereço: endereço
-        new_endereço: New endereço
-        confirm_gen_new_endereço: You sure want to generate a new deposit endereço?
+        new_endereço: novo endereço
+        confirm_gen_new_endereço: Você tem certeza que quer gerar um novo endereço de depósito?
         open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
         detail: Please paste the endereço below in your wallet, and fill in the amount you want to deposit, then confirm and send.
         scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
@@ -77,26 +77,26 @@ en:
         generate-new: Generate new endereço
 
       deposit_history:
-        title: Deposit History
+        title: Historico de Depósito
         number: '#'
-        identification: Identification Code
+        identification: Código de Identificação
         time: Time
-        txid: Transaction ID
-        confirmations: Confirmations
-        from: From
-        amount: Amount
-        state_and_action: "State/Action"
-        cancel: cancel
-        no_data: There is no history data
+        txid: ID da Transação
+        confirmations: Confirmações
+        from: De
+        amount: Quantidade
+        state_and_action: "Estado/Ação"
+        cancel: cancelar
+        no_data: Não há dados de histórico
 
-        submitting: Submitting
-        cancelled: Cancelled
-        submitted: Submitted
-        accepted: Accepted
-        rejected: Rejected
-        checked: Checked
-        warning: Warning
-        suspect: Suspect
+        submitting: Enviando
+        cancelled: Cancelado
+        submitted: Enviado
+        accepted: Aceito
+        rejected: Rejeitado
+        checked: Checado
+        warning: Atenção
+        suspect: Suspeito
 
       withdraw_cny:
         title: Chinese Yuan Withdraw
@@ -113,21 +113,21 @@ en:
         withdraw_all: Withdraw all
 
       withdraw_btc:
-        title: BTC Withdraw
+        title: BTC Saque
 
       withdraw_coin:
-        intro: Please fill in the endereço and amount, then submit the form. It will be confirmed in 10 minutes
-        label: Label
-        balance: Balance
-        amount: Amount
-        manage_withdraw: Manage endereço
+        intro: Por favor, preencha o endereço e o valor e envie o formulário. Será confirmado em 10 minutos
+        label: Rótulo
+        balance: Balanço
+        amount: Quantidade
+        manage_withdraw: Gerenciar Endereço
         min: At least
-        withdraw_all: Withdraw all
-        fee_explain: About Fee
+        withdraw_all: Sacar Tudo
+        fee_explain: Sobre a fee
 
       withdraw_history:
-        title: Withdraw History
-        number: Number
+        title: Histórico de Saque
+        number: Numero
         withdraw_time: Time
         withdraw_account: Withdraw Account
         withdraw_endereço: endereço
@@ -153,8 +153,8 @@ en:
         failed: Failed
 
     auth:
-      please_active_two_factor: Please set mobile number or google authenticator first.
-      submit: Submit
+      please_active_two_factor: Por favor, defina primeiro o número do celular ou o google authenticator.
+      submit: Enviar
       otp_placeholder: 6 digitos senha
       google_app: Google Authenticator
       sms: SMS Verification Messages
