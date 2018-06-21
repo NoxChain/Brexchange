@@ -10,7 +10,7 @@ module Private
 
       if current_user
         @btc_account = current_user.accounts.with_currency(:btc).first
-		@iop_account = current_user.accounts.with_currency(:iop).first
+	@iop_account = current_user.accounts.with_currency(:iop).first
         @cny_account = current_user.accounts.with_currency(:cny).first
       end
     end
