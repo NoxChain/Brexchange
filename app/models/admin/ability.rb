@@ -18,15 +18,15 @@ module Admin
       can :menu, Deposit
       can :manage, ::Deposits::Bank
       can :manage, ::Deposits::Satoshi
-	  can :manage, ::Deposits::Fermat
-	  can :manage, ::Deposits::Niobio
+      can :manage, ::Deposits::Fermat
+      can :manage, ::Deposits::Niobio
       can :manage, ::Deposits::Ether
 
       can :menu, Withdraw
       can :manage, ::Withdraws::Bank
       can :manage, ::Withdraws::Satoshi
-	  can :manage, ::Withdraws::Fermat
-	  can :manage, ::Withdraws::Niobio
+      can :manage, ::Withdraws::Fermat
+      can :manage, ::Withdraws::Niobio
       can :manage, ::Withdraws::Ether
 
     end
