@@ -1,7 +1,7 @@
 en:
   activerecord:
     models:
-      api_tokens: API Token
+      api_tokens: Token API
       trade: Trades
       order: Ordens
       order_bid: BID
@@ -26,7 +26,7 @@ en:
       withdraws/zcrs: Saque
     attributes:
       api_token:
-        access_key: Access Key
+        access_key: Key de Acesso
         trusted_ip_list: IP Whitelist
         ip_whitelist: IP Whitelist
         label: Label
@@ -69,18 +69,18 @@ en:
         id: ID
         sn: SN
         withdraw_id: ID
-        created_at: Created At
+        created_at: Criado em
         done_at: Done At
         sum: Sum
-        fee: Fee
-        currency: Currency
+        fee: Taxa
+        currency: Moeda
         amount: Quantidade
         address: Endereço
-        state: Status
-        state_text: Status
+        state: Estado
+        state_text: Estado
         tx_id: TxID
-        fund_source_id: Withdraw address
-        detail: Detail
+        fund_source_id: Endereço de Saque
+        detail: Detalhes
       account_version:
         id: ID
         locked: Congelado
@@ -129,28 +129,28 @@ en:
         state_wait: Wait
       member:
         id: ID
-        name: Real Name
-        display_name: Display Name
+        name: Nome Verdadeiro
+        display_name: Apelido
         email: Email
-        created_at: Register At
+        created_at: Registrado em
         sn: SN
-        id_document_number: Id Document Number
+        id_document_number: Documento de Identidade
         tag_list: Tags
-        activated: Activated
+        activated: Ativado
         activated?: "Activated?"
         id_document_verified?: "Id Document Verified?"
         two_factor_activated?: "Tow Factor Activated?"
-        phone_number: Phone Number
+        phone_number: Numero de Telefone
       two_factor/sms:
-        country: Country
-        phone_number: Phone Number
-        otp: Verify Code
+        country: País
+        phone_number: Numero de Telefone
+        otp: Código de Verificação
       withdraws/bank:
         id: ID
-        member_name: Member
-        currency_obj_key_text: Currency
-        state_and_actions: State/Action
-        fund_source: Bank
+        member_name: Membro
+        currency_obj_key_text: Moeda
+        state_and_actions: Estado/Ação
+        fund_source: Banco
         fund_extra: Bank
         fund_extra_text: Bank
         fund_uid: Bank Account
@@ -212,9 +212,9 @@ en:
         identity:
           attributes:
             email:
-              invalid: Invalid Email
+              invalid: Email Inválido
             password:
-              invalid: Invalid Password
+              invalid: Senha Invalída
             password_confirmation:
               confirmation: Inconsistent with the new password you enter, please re-enter.
         token/reset_password:
@@ -222,12 +222,12 @@ en:
             base:
               too_soon: Visit too soon, please try it later.
             email:
-              not-member: Invalid Email
+              not-member: Email Inválido
               match: Invalid Sign in Email
             password:
-              invalid: Invalid Password
+              invalid: Senha Inválida
             member:
-              blank: Not exist!
+              blank: Não Existe
         activation:
           attributes:
             base:
@@ -239,23 +239,23 @@ en:
               satoshi_ismine: Used Address
               satoshi_invalid: Invalid Address
         withdraw:
-          account_balance_is_poor: Account balance is insufficient
+          account_balance_is_poor: Saldo da conta insulficiente
           attributes:
             password:
               match: invalid
             amount:
-              poor: insufficient
+              poor: Insulficiente
               bank_min: Less 5000.00
         withdraws/satoshi:
           attributes:
             fund_uid:
-              blank: Please enter your withdrawal address
-              invalid: Invalid withdrawals address, please review.
-              ismine: Please use a new address.
+              blank: Por favor entre com o endereço de saque
+              invalid: Endereço de saque inválido, Por Favor corrija.
+              ismine: Por Favor use um novo endereço.
         two_factor:
           attributes:
             otp:
-              invalid: Wrong Password!Please re-enter.
+              invalid: Senha Inválida, tente novamente.
         application:
           attributes:
             redirect_uri:
@@ -263,13 +263,12 @@ en:
               invalid_uri: must be a valid URI.
               relative_uri: must be an absolute URI.
       messages:
-        invalid_email: Invalid Email Address
+        invalid_email: Endereço de Email invalído
         undef: unknown reason
         less: balance less
         verify: verify error
         strength: is invalid password strength
-        password: Please enter a password at least 6 characters and it's better to
-          contain uppercase and lowercase letters and numbers.
+        password: Por favor, digite uma senha com pelo menos 6 caracteres e é melhor se contiver letras maiúsculas e minúsculas e números.
         orders:
           price: limit price %{l} ~ %{h}
           sum: limit sum price %{l} ~ %{h}
@@ -296,6 +295,8 @@ en:
     currency:
       btc: BTC
       eth: ETH
+      nbr: NBR
+      iop: IOP
       cny: CNY
       doge: DOGE
       pts: PTS
@@ -306,6 +307,16 @@ en:
       code: BTC
       name: Bitcoin
       format: '0,0.0000'
+    fermat:
+      key: iop
+      code: IOP
+      name: Internet of People
+      format: '0,0.00000000'
+    niobio:
+      key: nbr
+      code: NBR
+      name: Niobio Cash
+      format: '0,0.00000000'
     ether:
       key: ETH
       code: ETH
@@ -713,7 +724,7 @@ en:
           this page, we present you our liabilities. We also provide you a way to
           verify that your account balance is indeed part of our liabilities.
         how-to-verify: How to verify an exchange is solvent?
-        how-to-verify-uri: https://BREXCHANGE.com/documents/liability_proof
+        how-to-verify-uri: https://brexchange.com/documents/liability_proof
       liability_data:
         liability-proof-generating: Proof of Liability generation in process, please
           come back after 30 minutes.
@@ -724,9 +735,9 @@ en:
         go-verify: Verify
       btc_assets:
         title: BTC Assets
-        intro: All of exchange's BTC assets are listed here.
-        total: Total BTC Assets
-        address: Address
+        intro: Todos os Bitcoins da Exchange são listados aqui.
+        total: Total de Bitcoins
+        address: Endereço
       eth_assets:
         title: ETH Assets
         intro: All of exchange's ETH assets are listed here.
@@ -808,6 +819,8 @@ en:
         all: All Markets
         all_html: "<i class='fa fa-check'></i><span>All Markets</span>"
         cny_html: "<i class='fa fa-check'></i><span>CNY Markets</span>"
+        nbr_html: "<i class='fa fa-check'></i><span>NBR Markets</span>"
+        iop_html: "<i class='fa fa-check'></i><span>IOP Markets</span>"
         btc_html: "<i class='fa fa-check'></i><span>BTC Markets</span>"
         price: Price
         change: "24h %"

@@ -806,6 +806,8 @@ en:
         all: All Markets
         all_html: "<i class='fa fa-check'></i><span>All Markets</span>"
         cny_html: "<i class='fa fa-check'></i><span>CNY Markets</span>"
+        nbr_html: "<i class='fa fa-check'></i><span>NBR Markets</span>"
+        iop_html: "<i class='fa fa-check'></i><span>IOP Markets</span>"
         btc_html: "<i class='fa fa-check'></i><span>BTC Markets</span>"
         price: Price
         change: "24h %"

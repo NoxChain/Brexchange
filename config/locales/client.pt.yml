@@ -30,7 +30,7 @@ en:
       manage_coin_endereço_desc: To facilitate the choice of coin withdrawals endereço
       bank: Banco
       account: Conta do Banco
-      label: Label
+      label: Rótulo
       endereço: endereço
       action: Ação
       add: Add
@@ -42,6 +42,9 @@ en:
       currency_name:
         cny: CNY
         btc: BTC
+        iop: IOP
+        nbr: NBR
+        zcr: ZCR
       deposit_cny:
         title: Yuan Chinês Deposito
         desc: "Para depositar por transferência bâncaria, por favor siga estes passos:"
@@ -129,39 +132,39 @@ en:
         title: Histórico de Saque
         number: Numero
         withdraw_time: Time
-        withdraw_account: Withdraw Account
+        withdraw_account: Conta de Saque
         withdraw_endereço: endereço
-        withdraw_amount: Amount
-        actual_amount: Actual Amount
-        fee: Fee
-        miner_fee: Fee
-        state_and_action: "State/Action"
-        cancel: Cancel
-        no_data: There is no history data
+        withdraw_amount: Quantidade
+        actual_amount: Quantidade Atual
+        fee: Taxa
+        miner_fee: Taxa
+        state_and_action: "Estado/Ação"
+        cancel: Cancelar
+        no_data: Aqui não tem nenhum histórico
 
-        submitting: Submitting
-        submitted: Submitted
-        rejected: Rejected
-        accepted: Accepted
-        suspect: Suspect
+        submitting: Enviando
+        submitted: Enviado
+        rejected: Rejeitado
+        accepted: Aceito
+        suspect: Suspeito
         processing: Processando
-        coin_ready: Coin Ready
+        coin_ready: Coin Pronta
         coin_done: Coin Done
-        done: Done
+        done: Feito
         almost_done: Almost Done
-        canceled: Canceled
-        failed: Failed
+        canceled: Cancelado
+        failed: Falhou
 
     auth:
       please_active_two_factor: Por favor, defina primeiro o número do celular ou o google authenticator.
       submit: Enviar
       otp_placeholder: 6 digitos senha
       google_app: Google Authenticator
-      sms: SMS Verification Messages
-      send_code: Send Code
+      sms: Verificação via SMS
+      send_code: Enviar Código
       send_code_alt: Resend in COUNT seconds
       hints:
-        app: Google Authenticator will re-generate a new password every thirty seconds, please input timely.
+        app: O Google Authenticator irá gerar novamente uma nova senha a cada trinta segundos, insira antes.
         sms: We'll send a text message to you phone with verify code.
 
     markets:
