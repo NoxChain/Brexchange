@@ -41,21 +41,8 @@
     accounts:
       -
         address: 0x4bA2474e063Aec44e23F2Bf7Fb9e4e2878dBaB44
-- id: 4
-  key: niobio
-  code: NBR
-  symbol: "N"
-  coin: true
-  family: CNT
-  quick_withdraw_max: 0
-  rpc: http://@127.0.0.1:8014
-  blockchain: http://explorer.niobiocash.com/?hash={txid}#blockchain_transaction
-  assets:
-    accounts:
-      -
-        address: N5QNCjWR31F46PJq4michPf6pPLixK3fLf2LBrxEu9MXAY48881Ln9g7LRzQ2L1WXvPSt5kE3pmDeNH39WTdxsg6T3EmNKK
 
-- id: 5
+- id: 4
   key: fermat
   code: iop
   symbol: "I"
@@ -69,3 +56,17 @@
     accounts:
       -
         address: p9qgtZbsUNrKXdFKGVmb4wGWT6EpUcrz2f
+
+- id: 5
+  key: niobio
+  code: nbr
+  symbol: "N"
+  coin: true
+  family: CNT
+  quick_withdraw_max: 0
+  rpc: http://@127.0.0.1:8014
+  blockchain: http://explorer.niobiocash.com/?hash={txid}#blockchain_transaction
+  assets:
+    accounts:
+      -
+        address: N5QNCjWR31F46PJq4michPf6pPLixK3fLf2LBrxEu9MXAY48881Ln9g7LRzQ2L1WXvPSt5kE3pmDeNH39WTdxsg6T3EmNKK
