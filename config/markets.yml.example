@@ -4,7 +4,7 @@
   base_unit: NBR
   quote_unit: IOP
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: iop, fixed: 2}
+  bid: {fee: 0, currency: iop, fixed: 4}
   ask: {fee: 0, currency: nbr, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
@@ -15,7 +15,7 @@
   quote_unit: cny
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: iop, fixed: 4}
-  ask: {fee: 0, currency: eth, fixed: 4}
+  ask: {fee: 0, currency: cny, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
 - id: ethbtc
@@ -26,5 +26,15 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: btc, fixed: 4}
   ask: {fee: 0, currency: eth, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: nbrbtc
+  code: 6
+  name: NBR/BTC    
+  base_unit: nbr
+  quote_unit: btc
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: nbr, fixed: 8}
+  ask: {fee: 0, currency: btc, fixed: 8}
   sort_order: 1
   #visible: false     # default to true

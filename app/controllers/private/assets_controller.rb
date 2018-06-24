@@ -11,8 +11,8 @@ module Private
 
       if current_user
         @btc_account = current_user.accounts.with_currency(:btc).first
-	    @iop_account = current_user.accounts.with_currency(:iop).first
-	    @nbr_account = current_user.accounts.with_currency(:nbr).first
+        @iop_account = current_user.accounts.with_currency(:iop).first
+        @nbr_account = current_user.accounts.with_currency(:nbr).first
         @cny_account = current_user.accounts.with_currency(:cny).first
       end
     end
