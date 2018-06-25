@@ -58,6 +58,9 @@ peatio/current/config/locales/
 * private/shared/en.yml
 * withdraws/{coin}s/en.yml
 
+public/templates/
+* funds/withdraw.html
+* funds/deposit.html
 
 #### Other
 If you are changing base currency from CNY to another base fiat currency (e.g. USD): 
