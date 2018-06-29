@@ -16,19 +16,19 @@ class CoinRPC
   def self.[](currency)
     c = Currency.find_by_code(currency.to_s)
     if c && c.rpc
-      if c.proto == 'ETH'
+      if c.family == 'ETH'
         name = 'ETH'
-      elsif c.proto == 'BTC'
+      elsif c.family == 'BTC'
         name = 'BTC'
-      elsif c.proto == 'OLD_BTC'
+      elsif c.family == 'OLD_BTC'
         name = 'OLD_BTC'
-      elsif c.proto == 'WOA_BTC'
+      elsif c.family == 'WOA_BTC'
         name = 'WOA_BTC'
-      elsif c.proto == 'LISK'
+      elsif c.family == 'LISK'
         name = 'LISK'
-      elsif c.proto == 'CNT'
+      elsif c.family == 'CNT'
         name = 'CNT'
-      elsif c.proto == 'FNT'
+      elsif c.family == 'FNT'
         name = 'FNT'
       else
         name = c[:handler]
