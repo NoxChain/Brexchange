@@ -44,6 +44,7 @@ en:
         btc: BTC
         iop: IOP
         nbr: NBR
+        dash: DASH
       deposit_cny:
         title: Chinese Yuan Deposit
         desc: "To deposit via Bank transfer, please follow these steps:"
@@ -72,7 +73,10 @@ en:
         title: NBR Deposit
         
       deposit_iop:
-        title: NBR Deposit
+        title: IOP Deposit
+
+      deposit_dash:
+        title: DASH Deposit
 
       deposit_coin:
         address: Address
@@ -129,6 +133,9 @@ en:
       withdraw_iop:
         title: IOP Withdraw
 
+      withdraw_dash:
+        title: DASH Withdraw
+
       withdraw_coin:
         intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
         label: Label
@@ -184,4 +191,5 @@ en:
         nbr: NBR Market
         iop: IOP Market
         btc: BTC Market
+        cny: CNY Market
 

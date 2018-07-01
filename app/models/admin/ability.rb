@@ -20,6 +20,7 @@ module Admin
       can :manage, ::Deposits::Satoshi
       can :manage, ::Deposits::Fermat
       can :manage, ::Deposits::Niobio
+      can :manage, ::Deposits::Dashpay
       can :manage, ::Deposits::Ether
 
       can :menu, Withdraw
@@ -27,6 +28,7 @@ module Admin
       can :manage, ::Withdraws::Satoshi
       can :manage, ::Withdraws::Fermat
       can :manage, ::Withdraws::Niobio
+      can :manage, ::Withdraws::Dashpay
       can :manage, ::Withdraws::Ether
 
     end
