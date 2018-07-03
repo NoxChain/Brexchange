@@ -21,7 +21,8 @@ en:
       deposits/bank: Deposit Bank
       withdraws/bank: Withdraw Bank
       withdraws/satoshi: Withdraw
-      withdraws/iops: Withdraw
+      withdraws/iop: Withdraw
+      withdraws/dash: Withdraw
     attributes:
       api_token:
         access_key: Access Key
@@ -298,12 +299,25 @@ en:
       doge: DOGE
       pts: PTS
       ltc: LTC
+      nbr: NBR
+      iop: IOP
+      dash: DASH
   currency:
     satoshi:
       key: BTC
       code: BTC
       name: Bitcoin
       format: '0,0.0000'
+    dashpays:
+      key: DASH
+      code: DASH
+      name: Dash
+      format: '0,0.00000'
+    fermat:
+      key: IOP
+      code: IOP
+      name: IOP
+      format: '0,0.00000'
     ether:
       key: ETH
       code: ETH
@@ -745,6 +759,9 @@ en:
         cny_format: '0.00'
         btc_format: '0.00000000'
         eth_format: '0.00000000'
+        iop_format: '0.00000000'
+        nbr_format: '0.00000000'
+        dash_format: '0.00000000'
         reason:
           cny:
             strike_add: Plus
@@ -1520,7 +1537,7 @@ en:
   'true': true
   'false': false
   view_on_github: View on Github
-  slogan: An open-source crypto-currency exchange for world.
+  slogan: A Brazillian cryptocurrency exchange.
   tags:
     vip: VIP
     hero: Hero Member
