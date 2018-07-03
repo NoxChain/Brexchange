@@ -70,3 +70,18 @@
     accounts:
       -
         address: N5QNCjWR31F46PJq4michPf6pPLixK3fLf2LBrxEu9MXAY48881Ln9g7LRzQ2L1WXvPSt5kE3pmDeNH39WTdxsg6T3EmNKK
+        
+- id: 6
+  key: dashpay
+  code: dash
+  symbol: "D"
+  coin: true
+  family: BTC
+  quick_withdraw_max: 0
+  rpc: http://username:password@127.0.0.1:18332
+  blockchain: https://chainz.cryptoid.info/dash/tx.dws?#{txid}.htm
+  address_url: https://chainz.cryptoid.info/dash/address.dws?#{address}
+  assets:
+    accounts:
+      -
+        address: 

@@ -1,7 +1,7 @@
 module Admin
   module Withdraws
     class FermatsController < ::Admin::Withdraws::BaseController
-      load_and_authorize_resource :class => '::Withdraws::Satoshi'
+      load_and_authorize_resource :class => '::Withdraws::Fermat'
 
       def index
         start_at = DateTime.now.ago(60 * 60 * 24)

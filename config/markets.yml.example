@@ -14,8 +14,8 @@
   base_unit: iop
   quote_unit: cny
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: iop, fixed: 4}
-  ask: {fee: 0, currency: cny, fixed: 4}
+  bid: {fee: 0, currency: cny, fixed: 4}
+  ask: {fee: 0, currency: iop, fixed: 8}
   sort_order: 1
   #visible: false     # default to true
 - id: ethbtc
@@ -36,5 +36,15 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: nbr, fixed: 8}
   ask: {fee: 0, currency: btc, fixed: 8}
+  sort_order: 1
+  #visible: false     # default to true
+- id: dashcny
+  code: 4
+  name: DASH/CNY     
+  base_unit: dash
+  quote_unit: cny
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: cny, fixed: 4}
+  ask: {fee: 0, currency: dash, fixed: 8}
   sort_order: 1
   #visible: false     # default to true
